@@ -1,0 +1,97 @@
+.centered {
+    text-align: center;
+}
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.section-topbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	overflow: visible;
+
+	background: #111;	
+	text-align: center;
+}
+
+.section-topbar ul#nav {
+	display: inline-block;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+.section-topbar ul#nav li {
+	display: block;
+    float: left;
+    padding: 0;
+}
+
+header {
+	background: url(Photo.jpg) no-repeat;
+	margin-top: 60px;
+	padding-top:140px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center;
+	min-height: 500px;
+	width: 100%;
+	background-size: 100%;
+
+   
+}
+
+header h1 {
+	font-size: 80px;
+	color: white;
+}
+
+header h3 {
+	font-size: 20px;
+	color: white;
+}
+
+
+.intro {
+	background: #2c3e50;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	color: white;
+} 
+
+.intro h3 {
+	color: white;
+}
+
+.intro p {
+	color: white;
+	font-size: 20px;
+	padding-right: 8px;
+	vertical-align: middle;
+}
+
+li {
+	list-style: none;
+}
+footer {
+	background: #2c3e50;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	color: white;
+}
+.smoothScroll {
+	background: white;
+	display: block;
+  text-decoration: none;
+  padding: 18px 20px 18px 20px;
+  border-left: 1px solid #222;
+  width: 50px;
+  height: 50px;
+}
