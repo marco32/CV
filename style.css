@@ -16,6 +16,7 @@
 	left: 0;
 	right: 0;
 	overflow: visible;
+	z-index: 1000;
 
 	background: #111;	
 	text-align: center;
@@ -36,7 +37,7 @@
 
 header {
 	background: url(Photo.jpg) no-repeat;
-	margin-top: 60px;
+	margin-top: 50px;
 	padding-top:140px;
 	text-align:center;
 	background-attachment: relative;
@@ -45,17 +46,30 @@ header {
 	width: 100%;
 	background-size: 100%;
 
+
    
 }
 
-header h1 {
-	font-size: 80px;
+header h1:after{
+	margin-top: 110px;
+	font-size: 5vmax;
 	color: white;
+	content:'FROSI Marco';
+	text-indent: 0;
+	line-height: initial;
+	display: block;
+	
+
 }
 
-header h3 {
-	font-size: 20px;
+header h3:after {
+	
+	font-size: 3vmax;
 	color: white;
+	content:'En formation Developpeur WEB';
+	text-indent: 0;
+	line-height: initial;
+	display: block;
 }
 
 
